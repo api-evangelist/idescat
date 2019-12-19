@@ -1,0 +1,41 @@
+{
+    "name": "Idescat",
+    "description": "Estad\u00edstiques oficials de Catalunya referents a poblaci\u00f3, economia i societat",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1775-idescat.jpg",
+    "tags": [
+        "api provider",
+        "dates",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/idescat\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Idescat",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1775-idescat.jpg",
+            "humanURL": "http:\/\/www.idescat.cat\/api\/onomastica\/?lang=en",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/idescat-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/idescat-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/www.idescat.cat\/api\/onomastica\/?lang=en"
+        }
+    ]
+}
